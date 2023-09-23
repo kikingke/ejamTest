@@ -1,0 +1,110 @@
+
+@media(max-width:992px) {
+    .card.testi {
+        display: none;
+    }
+
+    .logosbox {
+        max-width: none;
+    }
+
+    .imglogo {
+        height: 20px;
+    }
+
+    .heading h1 {
+        font-size: 32px;
+    }
+
+    .heading h3 {
+        font-size: 16px;
+    }
+
+    .step1,
+    .step2,
+    .step3,
+    .step4 {
+        font-size: 12px;
+        line-height: 13.2px;
+    }
+
+    .iconstep {
+        margin-right: 0rem !important;
+        display: block;
+        margin-bottom: 0.8rem;
+    }
+
+    .steps {
+        text-align: center;
+    }
+
+    /*details*/
+    .box {
+        background-color: transparent;
+        padding: 12px;
+    }
+    .innerbox h4 {
+        line-height: 33.6px;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .description{
+        padding: 0;
+    }
+    .thumnail {
+        height: 80px;
+        width: 80px;
+    }
+    .card-body h5 {
+        font-size: 14px;
+    }
+    .offer {
+        padding: 0.65rem 1.3rem;
+    }
+    .offer p {
+        margin-bottom: 0;
+        line-height: 19.6px;
+    }
+    .circle {
+        height: 28px;
+        width: 28px;
+    }
+    .circle img {
+        padding: 4px;
+    }
+    .card-header-resp{
+        border: 1px solid var(--gray4)!important;
+    border-radius: 4px;
+    text-align: center;
+    }
+    .card-header.visa{
+        border: none!important;
+    }
+    .linea{
+      width: 90%;
+     margin: 0 auto;
+    }
+    .guarantee {
+        align-items: flex-start;
+    }
+    .guarantee p {
+        line-height: 16.8px;
+        font-size: 12px;
+        margin-right: 1rem;
+    }
+    .guarantee figure img {
+        height: 44px;
+        width: 44px;
+    }
+    footer {
+        margin-top: 2rem;
+    }
+    footer .bt {
+        flex-direction: column;
+    }
+    footer .bt p {
+        font-size: 12px;
+        margin: 0.4rem 0;
+    }
+}
